@@ -21,16 +21,18 @@
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
+</ItemGroup>
+<ItemGroup>
     <ClInclude Include="lexer.h" />
     <ClInclude Include="parser.h" />
     <ClInclude Include="simple_hash_table.h" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="front.h" /> <!-- объединение изменений -->
+</ItemGroup>
+<ItemGroup>
     <ClCompile Include="lexer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="parser.cpp" />
+    <ClCompile Include="front.cpp" /> <!-- объединение изменений -->
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
